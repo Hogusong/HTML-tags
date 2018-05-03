@@ -1,0 +1,16 @@
+i {
+  color: red;
+}
+
+em {
+  color: blue
+}
+
+cite {
+  color: orange;
+}
+
+var {
+  color: magenta;
+  text-decoration: underline;
+}
