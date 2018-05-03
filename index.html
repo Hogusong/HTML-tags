@@ -8,7 +8,7 @@
   <title>All Tags</title>
 </head>
 <body>
-  <section class="tags">
+  <section class="tags" id="top">
     <div class="group-1">
       <h2>Tag Group I</h2>
       <p> 
@@ -94,6 +94,54 @@
         <dt>Wordpress</dt>
         <dd>A content management system for making webpages.</dd>
       </dl>
+    </div>
+  </section>
+  <hr>
+  <section class="links">
+    <h2>Links!</h2>
+    <a class="links" href="http://www.google.com">Google in this browser</a>
+    <a class="links" href="http://www.google.com" target="_blank">Google in new browser</a>
+    <a href="#top" class="links">Go to top of this page</a>
+    <a href="#video" class="links">Go to the Video</a>    
+    <br><br><hr>
+  </section>
+  <section class="image-table">
+    <h2>Images</h2>
+    <figure>
+      <img src="http://www.w3newbie.com/wp-content/uploads/boxer1.png" alt="Boxer Dog" 
+          height=300 width=600 align=right>
+      <br>
+      <p>This is my dog, he's a boxer.</p>
+    </figure>
+    <h2>Tables</h2>
+    <table>
+      <tr>
+        <th scope="col">blank</th>
+        <th scope="col">Table Header</th>
+      </tr>
+      <tr>
+        <th scope="row">blank</th>
+        <td>tr means table row</td>
+        <td>td means table data</td>
+      </tr>
+      <tr>
+        <th scope="row">blank</th>
+        <td>tr means table row</td>
+        <td>td means table data</td>
+      </tr>
+    </table>
+  </section>
+  <br><hr>
+  <section class="autio-vedio">
+    <p>iframe, or <span style="color: green;"><strong>inline frame</strong></span>, creates a window for another page to appear in.</p>
+    <p>most commonly iframes come in the form of embedded google maps and yotube videos!</p>
+    <div id="audio-video">
+      <h2>Audio</h2>
+      <audio src="audio.ogg" controls autoplay></audio>
+      <br>
+      <h2 id="video">Video</h2>
+      <video src="video.mp4" poster="poster.jpg"
+            width="560" height="315" preload controls loop></video>
     </div>    
   </section>
 </body>

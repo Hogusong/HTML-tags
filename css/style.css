@@ -1,7 +1,33 @@
-.group-2, .lists {
+.group-2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+}
+
+.lists {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "aa bb cc cc";
+}
+
+.ordered {
+  grid-area: aa;
+}
+
+.unordered {
+  grid-area: bb;
+}
+
+.definitions {
+  grid-area: cc;
+}
+
+.links a{
+  margin: 30px;
+}
+
+.links a:hover {
+  color: orangered;
 }
 
 i {
@@ -18,4 +44,8 @@ cite {
 
 .color2 {
   color: magenta;
+}
+
+table {
+  margin-bottom: 80px;
 }
