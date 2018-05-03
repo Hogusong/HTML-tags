@@ -8,7 +8,7 @@
   <title>All Tags</title>
 </head>
 <body>
-  <div class="container">
+  <section class="tags">
     <div class="group-1">
       <h2>Tag Group I</h2>
       <p> 
@@ -18,8 +18,8 @@
       </p>
     </div>
     <hr>
+    <h2>Tag Group II</h2>
     <div class="group-2">
-      <h2>Tag Group II</h2>
       <div class="detail">
         <h3>Variable : var</h3>
         <p>Lorem <var class="color2">variable</var> ipsum dolor sit amet.</p>
@@ -54,6 +54,47 @@
       </div>
     </div>
     <br><hr>
-  </div>
+  </section>
+
+  <h2>Lists</h2>
+  <section class="lists">
+    <div class="ordered">
+      <p>Ordered List</p>
+      <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>unordered list will be nested</li>
+          <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+          </ul>
+      </ol>
+    </div>
+    <div class="unordered">
+      <p>Unordered List</p>
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Ordered list will be nested</li>
+          <ol>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+          </ol>        
+      </ul>
+    </div>
+    <div class="definitions">
+      <p>Definition List</p>
+      <dl>
+        <dt>HTML</dt>
+        <dd>This means 'Hyper Text Markup Language'.</dd>
+        <br>
+        <dt>Wordpress</dt>
+        <dd>A content management system for making webpages.</dd>
+      </dl>
+    </div>    
+  </section>
 </body>
 </html>
